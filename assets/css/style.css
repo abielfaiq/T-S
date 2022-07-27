@@ -139,6 +139,7 @@ a:not(.btn-social-icon):not(.btn-social):not(.page-link) .fab {
 h1, h2, h3, h4, h5, h6 {
   font-weight: 700; }
 
+
 p, ul:not(.list-unstyled), ol {
   line-height: 28px; }
 
@@ -617,7 +618,7 @@ select.form-control:not([size]):not([multiple]) {
     position: static; }
   .card .card-body {
     padding-top: 20px;
-    padding-bottom: 20px; }
+    padding-bottom: 25px; }
     .card .card-body .section-title {
       margin: 30px 0 10px 0;
       font-size: 16px; }
@@ -1615,12 +1616,12 @@ h6 .badge {
         text-align: center;
         border-radius: 50%; }
   .navbar .active .nav-link {
-    color: #fff;
+    color: #5D7695;
     font-weight: 700; }
   .navbar .navbar-text {
     color: #fff; }
   .navbar .nav-link {
-    color: #f2f2f2;
+    color: #fff;
     padding-left: 15px !important;
     padding-right: 15px !important;
     padding-top: 0 !important;
@@ -2212,11 +2213,12 @@ pre {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.03);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.03);
     background-color: #fff;
-    border-radius: 3px;
+    border-radius: 10px;
     border: none;
     position: relative;
     margin-bottom: 30px;
     padding: 20px;
+    padding-top: 0;
     display: flex;
     align-items: center; }
     .section .section-header h1 {
@@ -2625,6 +2627,7 @@ body.layout-3 .main-footer {
       letter-spacing: .3px;
       color: #868e96;
       text-decoration: none; }
+      
       .main-sidebar .sidebar-menu li a .badge {
         float: right;
         padding: 5px 10px;

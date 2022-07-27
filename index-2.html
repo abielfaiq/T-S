@@ -6,7 +6,7 @@
 <head>
   <meta charset="UTF-8">
   <meta content="width=device-width, initial-scale=1, maximum-scale=1, shrink-to-fit=no" name="viewport">
-  <title>Ecommerce Dashboard &mdash; Stisla</title>
+  <title>Dashboard &mdash; T&S</title>
 
   <!-- General CSS Files -->
   <link rel="stylesheet" href="assets/modules/bootstrap/css/bootstrap.min.css">
@@ -21,16 +21,18 @@
   <!-- Template CSS -->
   <link rel="stylesheet" href="assets/css/style.css">
   <link rel="stylesheet" href="assets/css/components.css">
-<!-- Start GA -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-94034622-3"></script>
-<script>
+
+  <!-- Start GA -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-94034622-3"></script>
+  <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
 
   gtag('config', 'UA-94034622-3');
-</script>
-<!-- /END GA --></head>
+  </script>
+  <!-- /END GA -->
+</head>
 
 <body>
   <div id="app">
@@ -40,9 +42,9 @@
         <form class="form-inline mr-auto">
           <ul class="navbar-nav mr-3">
             <li><a href="#" data-toggle="sidebar" class="nav-link nav-link-lg"><i class="fas fa-bars"></i></a></li>
-            <li><a href="#" data-toggle="search" class="nav-link nav-link-lg d-sm-none"><i class="fas fa-search"></i></a></li>
+            <!--<li><a href="#" data-toggle="search" class="nav-link nav-link-lg d-sm-none"><i class="fas fa-search"></i></a></li>-->
           </ul>
-          <div class="search-element">
+          <!--<div class="search-element">
             <input class="form-control" type="search" placeholder="Search" aria-label="Search" data-width="250">
             <button class="btn" type="submit"><i class="fas fa-search"></i></button>
             <div class="search-backdrop"></div>
@@ -105,6 +107,7 @@
             </div>
           </div>
         </form>
+
         <ul class="navbar-nav navbar-right">
           <li class="dropdown dropdown-list-toggle"><a href="#" data-toggle="dropdown" class="nav-link nav-link-lg message-toggle beep"><i class="far fa-envelope"></i></a>
             <div class="dropdown-menu dropdown-list dropdown-menu-right">
@@ -171,8 +174,9 @@
                 <a href="#">View All <i class="fas fa-chevron-right"></i></a>
               </div>
             </div>
-          </li>
-          <li class="dropdown dropdown-list-toggle"><a href="#" data-toggle="dropdown" class="nav-link notification-toggle nav-link-lg beep"><i class="far fa-bell"></i></a>
+          </li>-->
+
+          <!--<li class="dropdown dropdown-list-toggle"><a href="#" data-toggle="dropdown" class="nav-link notification-toggle nav-link-lg beep"><i class="far fa-bell"></i></a>
             <div class="dropdown-menu dropdown-list dropdown-menu-right">
               <div class="dropdown-header">Notifications
                 <div class="float-right">
@@ -230,8 +234,9 @@
                 <a href="#">View All <i class="fas fa-chevron-right"></i></a>
               </div>
             </div>
-          </li>
-          <li class="dropdown"><a href="#" data-toggle="dropdown" class="nav-link dropdown-toggle nav-link-lg nav-link-user">
+          </li>-->
+
+         <!--<li class="dropdown"><a href="#" data-toggle="dropdown" class="nav-link dropdown-toggle nav-link-lg nav-link-user">
             <img alt="image" src="assets/img/avatar/avatar-1.png" class="rounded-circle mr-1">
             <div class="d-sm-none d-lg-inline-block">Hi, Ujang Maman</div></a>
             <div class="dropdown-menu dropdown-menu-right">
@@ -251,38 +256,54 @@
               </a>
             </div>
           </li>
-        </ul>
+        </ul>-->
       </nav>
+
+      <!--SIDE BAR-->
       <div class="main-sidebar sidebar-style-2">
         <aside id="sidebar-wrapper">
           <div class="sidebar-brand">
-            <a href="index-2.html">Stisla</a>
+            <a href="index-2.html">Test & Success </a>
           </div>
           <div class="sidebar-brand sidebar-brand-sm">
-            <a href="index-2.html">St</a>
+            <a href="index-2.html">T&S</a>
           </div>
+
           <ul class="sidebar-menu">
-            <li class="menu-header">Dashboard</li>
+            <!--DASHBOARD-->
+            <!--<li class="menu-header">Dashboard</li>-->
             <li class="dropdown active">
-              <a href="#" class="nav-link has-dropdown"><i class="fas fa-fire"></i><span>Dashboard</span></a>
-              <ul class="dropdown-menu">
+              <a class="nav-link" href="index-2.html"><i class="fas fa-home"></i><span>Dashboard</span></a>
+              <!--<ul class="dropdown-menu">
                 <li><a class="nav-link" href="index-0.html">General Dashboard</a></li>
                 <li class=active><a class="nav-link" href="index-2.html">Ecommerce Dashboard</a></li>
-              </ul>
+              </ul>-->
             </li>
-            <li class="menu-header">Starter</li>
+            
+            <!--PROFILE-->
+            <!--<li class="menu-header">Starter</li>-->
             <li class="dropdown">
-              <a href="#" class="nav-link has-dropdown" data-toggle="dropdown"><i class="fas fa-columns"></i> <span>Layout</span></a>
-              <ul class="dropdown-menu">
+              <a class="nav-link" href="features-profile.html"><i class="fas fa-user"></i> <span>Profile</span></a>
+              <!--<ul class="dropdown-menu">
                 <li><a class="nav-link" href="layout-default.html">Default Layout</a></li>
                 <li><a class="nav-link" href="layout-transparent.html">Transparent Sidebar</a></li>
                 <li><a class="nav-link" href="layout-top-navigation.html">Top Navigation</a></li>
-              </ul>
+              </ul>-->
             </li>
-            <li><a class="nav-link" href="blank.html"><i class="far fa-square"></i> <span>Blank Page</span></a></li>
+            
             <li class="dropdown">
-              <a href="#" class="nav-link has-dropdown"><i class="fas fa-th"></i> <span>Bootstrap</span></a>
-              <ul class="dropdown-menu">
+              <a class="nav-link" href="blank.html"><i class="fas fa-check"></i> <span>Kuis</span></a>
+           
+            
+            <li class="dropdown">
+              <a class="nav-link" href="testimoni.html"><i class="fas fa-th"></i> <span> Testimoni</span></a>
+            </li>
+
+            <li class="dropdown">
+              <a class="nav-link" href="auth-login.html"><i class="fas fa-th"></i> <span> Logout</span></a>
+            </li>
+
+              <!--<ul class="dropdown-menu">
                 <li><a class="nav-link" href="bootstrap-alert.html">Alert</a></li>
                 <li><a class="nav-link" href="bootstrap-badge.html">Badge</a></li>
                 <li><a class="nav-link" href="bootstrap-breadcrumb.html">Breadcrumb</a></li>
@@ -335,7 +356,8 @@
                 <li><a href="gmaps-route.html">Route</a></li>
                 <li><a href="gmaps-simple.html">Simple</a></li>
               </ul>
-            </li>            <li class="dropdown">
+            </li>            
+            <li class="dropdown">
               <a href="#" class="nav-link has-dropdown"><i class="fas fa-plug"></i> <span>Modules</span></a>
               <ul class="dropdown-menu">
                 <li><a class="nav-link" href="modules-calendar.html">Calendar</a></li>
@@ -390,21 +412,24 @@
                 <li><a class="nav-link" href="utilities-invoice.html">Invoice</a></li>
                 <li><a href="utilities-subscribe.html">Subscribe</a></li>
               </ul>
-            </li>            <li><a class="nav-link" href="credits.html"><i class="fas fa-pencil-ruler"></i> <span>Credits</span></a></li>
-          </ul>
+            </li>            
+            <li><a class="nav-link" href="credits.html"><i class="fas fa-pencil-ruler"></i> <span>Credits</span></a></li>
+          </ul>-->
 
-          <div class="mt-4 mb-4 p-3 hide-sidebar-mini">
+          <!--<div class="mt-4 mb-4 p-3 hide-sidebar-mini">
             <a href="https://getstisla.com/docs" class="btn btn-primary btn-lg btn-block btn-icon-split">
               <i class="fas fa-rocket"></i> Documentation
             </a>
-          </div>        </aside>
+          </div>--> 
+
+        </aside>
       </div>
 
-      <!-- Main Content -->
+      <!-- MAIN CONTEN -->
       <div class="main-content">
         <section class="section">
           <div class="row">
-            <div class="col-lg-4 col-md-4 col-sm-12">
+            <!--<div class="col-lg-4 col-md-4 col-sm-12">
               <div class="card card-statistic-2">
                 <div class="card-stats">
                   <div class="card-stats-title">Order Statistics - 
@@ -454,8 +479,9 @@
                   </div>
                 </div>
               </div>
-            </div>
-            <div class="col-lg-4 col-md-4 col-sm-12">
+            </div>-->
+
+            <!--<div class="col-lg-4 col-md-4 col-sm-12">
               <div class="card card-statistic-2">
                 <div class="card-chart">
                   <canvas id="balance-chart" height="80"></canvas>
@@ -472,8 +498,9 @@
                   </div>
                 </div>
               </div>
-            </div>
-            <div class="col-lg-4 col-md-4 col-sm-12">
+            </div>-->
+
+            <!--<div class="col-lg-4 col-md-4 col-sm-12">
               <div class="card card-statistic-2">
                 <div class="card-chart">
                   <canvas id="sales-chart" height="80"></canvas>
@@ -490,24 +517,42 @@
                   </div>
                 </div>
               </div>
-            </div>
+            </div>-->
+
           </div>
           <div class="row">
             <div class="col-lg-8">
               <div class="card">
                 <div class="card-header">
-                  <h4>Budget vs Sales</h4>
+                  <h4>Profil</h4>
                 </div>
                 <div class="card-body">
-                  <canvas id="myChart" height="158"></canvas>
+                  <canvas id="kuis" height="10"></canvas>
                 </div>
               </div>
             </div>
-            <div class="col-lg-4">
-              <div class="card gradient-bottom">
+          
+          </div>
+          <div class="row">
+            <div class="col-lg-8">
+            
+              <div class="card">
                 <div class="card-header">
-                  <h4>Top 5 Products</h4>
-                  <div class="card-header-action dropdown">
+                <h4>Kuis</h4>
+                </div>
+                <div class="card-body">
+                  <canvas id="kuis" height="298"></canvas>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4">
+
+              <div class="card gradient-bottom">
+              
+                <div class="card-header">
+                  <h4>Testimoni</h4>
+                  <!--<div class="card-header-action dropdown">
                     <a href="#" data-toggle="dropdown" class="btn btn-danger dropdown-toggle">Month</a>
                     <ul class="dropdown-menu dropdown-menu-sm dropdown-menu-right">
                       <li class="dropdown-title">Select Period</li>
@@ -516,16 +561,18 @@
                       <li><a href="#" class="dropdown-item active">Month</a></li>
                       <li><a href="#" class="dropdown-item">This Year</a></li>
                     </ul>
-                  </div>
+                  </div>-->
                 </div>
+
                 <div class="card-body" id="top-5-scroll">
                   <ul class="list-unstyled list-unstyled-border">
                     <li class="media">
-                      <img class="mr-3 rounded" width="55" src="assets/img/products/product-3-50.png" alt="product">
+                      <img class="mr-3 rounded" width="55" src="assets/img/avatar/avatar-1.png" alt="foto">
                       <div class="media-body">
-                        <div class="float-right"><div class="font-weight-600 text-muted text-small">86 Sales</div></div>
-                        <div class="media-title">oPhone S9 Limited</div>
-                        <div class="mt-1">
+                        <!--<div class="float-right"><div class="font-weight-600 text-muted text-small">Asep</div></div>-->
+                        <div class="media-title">Alexa Monicca</div>
+                        <p>wah aplikasi ini seru sekali</p>
+                        <!--<div class="mt-1">
                           <div class="budget-price">
                             <div class="budget-price-square bg-primary" data-width="64%"></div>
                             <div class="budget-price-label">$68,714</div>
@@ -534,93 +581,83 @@
                             <div class="budget-price-square bg-danger" data-width="43%"></div>
                             <div class="budget-price-label">$38,700</div>
                           </div>
-                        </div>
+                        </div>-->
                       </div>
                     </li>
                     <li class="media">
-                      <img class="mr-3 rounded" width="55" src="assets/img/products/product-4-50.png" alt="product">
+                      <img class="mr-3 rounded" width="55" src="assets/img/avatar/avatar-1.png" alt="foto">
                       <div class="media-body">
-                        <div class="float-right"><div class="font-weight-600 text-muted text-small">67 Sales</div></div>
-                        <div class="media-title">iBook Pro 2018</div>
-                        <div class="mt-1">
+                        <!--<div class="float-right"><div class="font-weight-600 text-muted text-small">Asep</div></div>-->
+                        <div class="media-title">alexander</div>
+                        <p></p>
+                        <!--<div class="mt-1">
                           <div class="budget-price">
-                            <div class="budget-price-square bg-primary" data-width="84%"></div>
-                            <div class="budget-price-label">$107,133</div>
+                            <div class="budget-price-square bg-primary" data-width="64%"></div>
+                            <div class="budget-price-label">$68,714</div>
                           </div>
                           <div class="budget-price">
-                            <div class="budget-price-square bg-danger" data-width="60%"></div>
-                            <div class="budget-price-label">$91,455</div>
+                            <div class="budget-price-square bg-danger" data-width="43%"></div>
+                            <div class="budget-price-label">$38,700</div>
                           </div>
-                        </div>
+                        </div>-->
                       </div>
                     </li>
                     <li class="media">
-                      <img class="mr-3 rounded" width="55" src="assets/img/products/product-1-50.png" alt="product">
+                      <img class="mr-3 rounded" width="55" src="assets/img/avatar/avatar-1.png" alt="foto">
                       <div class="media-body">
-                        <div class="float-right"><div class="font-weight-600 text-muted text-small">63 Sales</div></div>
-                        <div class="media-title">Headphone Blitz</div>
-                        <div class="mt-1">
+                        <!--<div class="float-right"><div class="font-weight-600 text-muted text-small">Asep</div></div>-->
+                        <div class="media-title">mariposa sisilian</div>
+                        <p></p>
+                        <!--<div class="mt-1">
                           <div class="budget-price">
-                            <div class="budget-price-square bg-primary" data-width="34%"></div>
-                            <div class="budget-price-label">$3,717</div>
+                            <div class="budget-price-square bg-primary" data-width="64%"></div>
+                            <div class="budget-price-label">$68,714</div>
                           </div>
                           <div class="budget-price">
-                            <div class="budget-price-square bg-danger" data-width="28%"></div>
-                            <div class="budget-price-label">$2,835</div>
+                            <div class="budget-price-square bg-danger" data-width="43%"></div>
+                            <div class="budget-price-label">$38,700</div>
                           </div>
-                        </div>
+                        </div>-->
                       </div>
                     </li>
+
                     <li class="media">
-                      <img class="mr-3 rounded" width="55" src="assets/img/products/product-3-50.png" alt="product">
+                      <img class="mr-3 rounded" width="55" src="assets/img/avatar/avatar-1.png" alt="foto">
                       <div class="media-body">
-                        <div class="float-right"><div class="font-weight-600 text-muted text-small">28 Sales</div></div>
-                        <div class="media-title">oPhone X Lite</div>
-                        <div class="mt-1">
+                        <!--<div class="float-right"><div class="font-weight-600 text-muted text-small">Asep</div></div>-->
+                        <div class="media-title">Alexa Monicca</div>
+                        <p></p>
+                        <!--<div class="mt-1">
                           <div class="budget-price">
-                            <div class="budget-price-square bg-primary" data-width="45%"></div>
-                            <div class="budget-price-label">$13,972</div>
+                            <div class="budget-price-square bg-primary" data-width="64%"></div>
+                            <div class="budget-price-label">$68,714</div>
                           </div>
                           <div class="budget-price">
-                            <div class="budget-price-square bg-danger" data-width="30%"></div>
-                            <div class="budget-price-label">$9,660</div>
+                            <div class="budget-price-square bg-danger" data-width="43%"></div>
+                            <div class="budget-price-label">$38,700</div>
                           </div>
-                        </div>
-                      </div>
-                    </li>
-                    <li class="media">
-                      <img class="mr-3 rounded" width="55" src="assets/img/products/product-5-50.png" alt="product">
-                      <div class="media-body">
-                        <div class="float-right"><div class="font-weight-600 text-muted text-small">19 Sales</div></div>
-                        <div class="media-title">Old Camera</div>
-                        <div class="mt-1">
-                          <div class="budget-price">
-                            <div class="budget-price-square bg-primary" data-width="35%"></div>
-                            <div class="budget-price-label">$7,391</div>
-                          </div>
-                          <div class="budget-price">
-                            <div class="budget-price-square bg-danger" data-width="28%"></div>
-                            <div class="budget-price-label">$5,472</div>
-                          </div>
-                        </div>
+                        </div>-->
                       </div>
                     </li>
                   </ul>
                 </div>
+
                 <div class="card-footer pt-3 d-flex justify-content-center">
                   <div class="budget-price justify-content-center">
-                    <div class="budget-price-square bg-primary" data-width="20"></div>
-                    <div class="budget-price-label">Selling Price</div>
+                    <!--<div class="budget-price-square bg-primary" data-width="20"></div>-->
+                    <div class="budget-price-label"></div>
                   </div>
                   <div class="budget-price justify-content-center">
-                    <div class="budget-price-square bg-danger" data-width="20"></div>
-                    <div class="budget-price-label">Budget Price</div>
+                    <!--<div class="budget-price-square bg-danger" data-width="20"></div>-->
+                    <div class="budget-price-label"></div>
                   </div>
                 </div>
+
               </div>
             </div>
           </div>
-          <div class="row">
+
+          <!--<div class="row">
             <div class="col-md-6">
               <div class="card">
                 <div class="card-header">
@@ -758,8 +795,10 @@
                 </div>
               </div>
             </div>
-          </div>
-          <div class="row">
+          </div>-->
+
+          <!--UNTUK USER ADMIN!!!!!-->
+          <!--<div class="row">
             <div class="col-md-8">
               <div class="card">
                 <div class="card-header">
@@ -878,10 +917,11 @@
             </div>
           </div>
         </section>
-      </div>
+      </div>-->
+
       <footer class="main-footer">
         <div class="footer-left">
-          Copyright &copy; 2018 <div class="bullet"></div> Design By <a href="https://nauval.in/">Muhamad Nauval Azhar</a>
+          Copyright &copy; 2022 <div class="bullet"></div> T&S</a>
         </div>
         <div class="footer-right">
           
